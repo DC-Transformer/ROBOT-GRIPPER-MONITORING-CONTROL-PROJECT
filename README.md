@@ -13,8 +13,9 @@ The image below shows how each device will interact with each other:
 
 # REQUIREMENTS, SPECIFICATIONS, AND VERIFICATION
 - System must react in real time
+- Must withstand normal industrial conditions
 - If current part is correct, then gripper will hold
-- If current part is incorrect, then gripper will release
+- If current part is incorrect, an alarm will be triggered
 
 # SELECTED HARDWARE, API, AND TOOLS
 - ACS712 current sensor (2x)
