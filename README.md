@@ -5,7 +5,11 @@ The robotic arms play a crucial role in accurately handling and transferring com
 The image below shows how each device will interact with each other:
 <img width="1920" height="1080" alt="SYSTEM ARCHITECTURE DIAGRAM" src="https://github.com/user-attachments/assets/2a3befe1-aa17-40bf-b3f9-5fb9d447810c" />
 
-There will be 2 current sensors connected in series with the servos, which will connect to the MCU, which will determine the current at any time.
+- Each servo will have its current monitored
+- The servo controlling the gripper will close until it detects a current spike, indicating that the part is secure
+- The angle of the gripper servo will be saved
+- The servo lifting the gripper will rotate, and the current needed to move the part will be monitored
+- The gripper servo angle and the lifting servo current will be matched to the saved values for each part to determine if the correct part was carried
 
 # REQUIREMENTS, SPECIFICATIONS, AND VERIFICATION
 - System must react in real time
