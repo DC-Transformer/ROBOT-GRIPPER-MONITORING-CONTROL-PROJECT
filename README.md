@@ -23,6 +23,7 @@ The image below shows how each device will interact with each other:
 - STM32 "blue pill" MCU (1x)
 - Micro servo motor (2x)
 
+- STM32CUBEIDE
 - FreeRTOS API
 # REFERENCES
 
