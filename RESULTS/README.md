@@ -1,5 +1,7 @@
 # RESULTS
-In the end, the LED toggle and serial outputs worked as intended, and the LED RTOS version also works, but other than a few extra steps to set it up, it works exactly the same as the baremetal version
+In the end, the LED toggle and serial outputs worked as intended, but there were severe issues with the ST-LINK not being able to program the MCU because its firmware was outdated, and our computers could not update it for some reason.
+
+The LED RTOS version also works, and it helped us get used to setting the MCU up for RTOS, even though it's not needed for the LED blinking
 
 LED TOGGLE EVERY 500ms:
 
