@@ -5,4 +5,4 @@ We did connect a multimeter in series with the current sensor, and it did show t
 
 We will try to use the current sensor on an Audrino, which will help us determine if the issue is with the MCU, the code, or something else.
 
-Once we figure out the issue, the final code will be put up
+Once we figure out the issue, the final code and results will be put up, but we are currently falling behind on the project because of this.
