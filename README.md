@@ -3,7 +3,7 @@ The robotic arms play a crucial role in accurately handling and transferring com
 
 # SYSTEM ARCHITECTURE
 The image below shows how each device will interact with each other:
-<img width="1920" height="1080" alt="SYSTEM ARCHITECTURE DIAGRAM" src="https://github.com/user-attachments/assets/2a3befe1-aa17-40bf-b3f9-5fb9d447810c" />
+<img width="1920" height="1080" alt="SYSTEM ARCHITECTURE DIAGRAM" src="https://github.com/user-attachments/assets/5197222f-2a6e-4264-ad53-ee61f47dfb0b" />
 
 - The arm will use 2 servos (1 to grab, 1 to lift)
 - Each servo will have its current monitored
