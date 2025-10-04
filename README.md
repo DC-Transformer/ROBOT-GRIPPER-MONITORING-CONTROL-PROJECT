@@ -18,6 +18,7 @@ The image below shows how each device will interact with each other:
 - If current part is correct, then gripper will hold
 - If current part is incorrect, an alarm will be triggered
 - The system will only be trained to detect 2 parts for the sake of the project, but more can be added
+- The expected and final results will be compared to determine if the system detects successfully
 
 # SELECTED HARDWARE, API, AND TOOLS
 - ACS712 current sensor (2x)
