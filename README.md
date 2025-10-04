@@ -5,7 +5,7 @@ The robotic arms play a crucial role in accurately handling and transferring com
 The image below shows how each device will interact with each other:
 <img width="1920" height="1080" alt="SYSTEM ARCHITECTURE DIAGRAM" src="https://github.com/user-attachments/assets/dcd31d6a-2119-4917-a653-88c87c43447d" />
 
-- The arm will use 2 servos (1 to grab, 1 to lift)
+- The arm will use 2 servo motors (1 to grab, 1 to lift)
 - Each servo will have its current monitored
 - The servo controlling the gripper will close until it detects a current spike, indicating that the part is secure
 - The angle of the gripper servo will be saved
@@ -15,10 +15,10 @@ The image below shows how each device will interact with each other:
 # REQUIREMENTS, SPECIFICATIONS, AND VERIFICATION
 - System must process and react in real time (no longer than 100ms)
 - Must withstand normal industrial conditions
-- If current part is correct, then gripper will hold
-- If current part is incorrect, an alarm will be triggered
-- The system will only be trained to detect 2 parts for the sake of the project, but more can be added
-- The expected and final results will be compared to determine if the system detects successfully
+- If inspected part is correct, then gripper will hold
+- If inspected part is incorrect, an alarm will be triggered
+- The system will only be trained to detect 2 parts for the sake of the project, but more can be added in the future
+- The expected and measured results will be compared to determine if the system is successfully detecting parts
 
 # SELECTED HARDWARE, API, AND TOOLS
 - ACS712 current sensor (2x)
