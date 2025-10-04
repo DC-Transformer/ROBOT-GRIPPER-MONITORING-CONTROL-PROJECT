@@ -5,6 +5,7 @@ The robotic arms play a crucial role in accurately handling and transferring com
 The image below shows how each device will interact with each other:
 <img width="1920" height="1080" alt="SYSTEM ARCHITECTURE DIAGRAM" src="https://github.com/user-attachments/assets/2a3befe1-aa17-40bf-b3f9-5fb9d447810c" />
 
+- The arm will use 2 servos (1 to grab, 1 to lift)
 - Each servo will have its current monitored
 - The servo controlling the gripper will close until it detects a current spike, indicating that the part is secure
 - The angle of the gripper servo will be saved
