@@ -22,10 +22,11 @@ The image below shows how each device will interact with each other:
 - ACS712 current sensor (2x)
 - STM32 "blue pill" MCU (1x)
 - Micro servo motor (2x)
-
+- USB to TTL adapter (1x)
 - STM32CUBEIDE
 - FreeRTOS API
-# REFERENCES
 
+# REFERENCES
+- Lectures and labs from Embedded Parallel Computing Course
 - https://deepbluembedded.com/stm32-servo-motor-control-with-pwm-servo-library-examples-code/
 - https://www.micropeta.com/video55
