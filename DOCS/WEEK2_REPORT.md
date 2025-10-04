@@ -1,5 +1,5 @@
 # REPORT
-This week we were able to complete the code, and it looked like it should work, but we could not program the MCU or test the code, due to issues with the ST-LINK firmware not being the most updated, and our computers could not update it.
+This week we were able to complete the LED and SERIAL code, and it looked like it should work, but we could not program the MCU or test the code, due to issues with the ST-LINK firmware not being the most updated, and our computers could not update it.
 
 We used STM32CubeProgrammer to download the LED code to the MCU, which worked, but even that stopped working after a while, it gave the same error about the outdated firmware for the ST-LINK.
 
