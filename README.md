@@ -28,4 +28,4 @@ The image below shows how each device will interact with each other:
 # REFERENCES
 
 - https://deepbluembedded.com/stm32-servo-motor-control-with-pwm-servo-library-examples-code/
-- https://blog.embeddedexpert.io/?p=1687
+- https://www.micropeta.com/video55
