@@ -13,7 +13,7 @@ The image below shows how each device will interact with each other:
 - The gripper servo angle and the lifting servo current will be matched to the saved values for each part to determine if the correct part was carried
 
 # REQUIREMENTS, SPECIFICATIONS, AND VERIFICATION
-- System must react in real time (no longer than 100ms)
+- System must process and react in real time (no longer than 100ms)
 - Must withstand normal industrial conditions
 - If current part is correct, then gripper will hold
 - If current part is incorrect, an alarm will be triggered
